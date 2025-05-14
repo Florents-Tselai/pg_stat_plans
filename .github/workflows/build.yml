@@ -37,7 +37,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - postgres: 17
+          - postgres: 18
             os: macos-14
 
     steps:
